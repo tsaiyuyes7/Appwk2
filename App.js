@@ -5,7 +5,7 @@ export default function App() {
   return (
     <View style={styles.container}>
       <View style={text.container}>
-        <Text>葉司淇</Text>
+        <Text>數位三甲葉司淇</Text>
     </View>
       <View style={text.container}>
         <Text>110619021</Text>
