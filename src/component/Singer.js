@@ -113,8 +113,8 @@ import { StyleSheet, Text, View ,Image,ScrollView} from 'react-native';
       marginBottom: 24,
       fontSize: 20,
       color: '#736357',
-      letterSpacing: 2
-      
+      letterSpacing: 2,
+      fontWeight: 'bold'     
     },
     newalbumImage:{
       borderRadius: 10,
@@ -134,7 +134,7 @@ import { StyleSheet, Text, View ,Image,ScrollView} from 'react-native';
     trendsection: {
       flexDirection: "row",
      justifyContent: "flex-start",
-     height:170
+     height:150
     },
     trend1:{
       paddingLeft: 24,
@@ -159,6 +159,7 @@ import { StyleSheet, Text, View ,Image,ScrollView} from 'react-native';
       fontSize: 20,
       color: '#736357',
       letterSpacing: 2,
+      fontWeight: 'bold'   
     },
     allalbumsection: {
      flexDirection: "row",
@@ -166,6 +167,7 @@ import { StyleSheet, Text, View ,Image,ScrollView} from 'react-native';
      height: 300,
     },
     allalbumImg: {
+      borderRadius:10,
       width:155,
       height: 155
     },
