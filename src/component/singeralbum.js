@@ -1,17 +1,14 @@
 import React from 'react';
 import { StyleSheet, Text, View ,Image,ScrollView} from 'react-native';
-import BandData from '../json/albums.json'
 
   const Bandlist = () => {
     return (
       <ScrollView>
         <View style={styles.singerSection}>
-    <Text style={styles.singername}>{BandData[0].singer}</Text>
+          <Text style={styles.singername}>ONE OK ROCK</Text>
             <View>
              <Image  style={styles.singerimagestyle}
-                     source={{
-                       uri: BandData[0].url
-                     }}
+                     source={require("../img/oor.png")}
              />
             </View> 
         </View>
@@ -21,10 +18,8 @@ import BandData from '../json/albums.json'
         <View style={styles.newalbumsection}>
           <Text style={styles.newalbumtitle}>New album</Text>
           <Image  style={styles.newalbumImage}
-                  source={{
-                    uri: BandData[1].url
-                  }} />
-          <Text style={styles.eyeofstormtitle}>{BandData[1].albumname}</Text>
+                  source={require("../img/eyeofstorm.jpg")} />
+          <Text style={styles.eyeofstormtitle}>EYE OF STORM</Text>
         </View>
         <View>
           <Text  style={styles.newalbumtitle}>Trending this week</Text>
@@ -32,29 +27,23 @@ import BandData from '../json/albums.json'
               <View style={styles.trend1}>
               <Image
                   style={styles.trendImage}
-                  source={{
-                    uri: BandData[2].url
-                  }} 
+                  source={require("../img/jinsenoboku.png")} 
                 />
-                <Text style={styles.trendalbumname}>{BandData[2].albumname}</Text>
+                <Text style={styles.trendalbumname}>人生x樸</Text>
               </View>
               <View style={styles.trend}>
               <Image
                   style={styles.trendImage}
-                  source={{
-                    uri: BandData[3].url
-                  }} 
+                  source={require("../img/ambitions.jpg")} 
                 />
-                <Text style={styles.trendalbumname}>{BandData[3].albumname}</Text>
+                <Text style={styles.trendalbumname}>Ambitions</Text>
               </View>
               <View style={styles.trend}>
               <Image
                   style={styles.trendImage}
-                  source={{
-                    uri: BandData[4].url
-                  }} 
+                  source={require("../img/35xxxv.jpg")} 
                 />
-                <Text style={styles.trendalbumname}>{BandData[4].albumname}</Text>
+                <Text style={styles.trendalbumname}>35xxxv</Text>
               </View>
           </View>
           </View>
@@ -64,20 +53,16 @@ import BandData from '../json/albums.json'
               <View style={styles.all1}>
                 <Image 
                   style={styles.allalbumImg}
-                  source={{
-                    uri: BandData[5].url
-                  }} 
+                  source={require("../img/reference.png")} 
                 />
-                <Text style={styles.trendalbumname}>{BandData[5].albumname}</Text>
+                <Text style={styles.trendalbumname}>殘響Reference</Text>
               </View>
               <View style={styles.all2}>
                 <Image 
                   style={styles.allalbumImg}
-                  source={{
-                    uri: BandData[6].url
-                  }} 
+                  source={require("../img/nichesydrome.jpg")} 
                 />
-                <Text style={styles.trendalbumname}>{BandData[6].albumname}</Text>
+                <Text style={styles.trendalbumname}>Niche Syndrome</Text>
               </View>
             </View>
           </View>
@@ -103,8 +88,7 @@ import BandData from '../json/albums.json'
     singerimagestyle:{
       marginRight:24,
       height:64,
-      width:64,
-      borderRadius: 30
+      width:64
     },
     navsection:{
       height:25,
@@ -136,10 +120,7 @@ import BandData from '../json/albums.json'
       borderRadius: 10,
       width: 315,
       height: 187,
-      marginLeft:24,
-      shadowColor: '#000',
-      shadowOffset: {width: 0,height: 2},
-      shadowOpacity: 1.0
+      marginLeft:24
     },
     eyeofstormtitle: {
       marginTop: 24,

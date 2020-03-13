@@ -1,0 +1,36 @@
+[
+    {
+        "singer": "ONE OK ROCK",
+        "url": "https://i.kfs.io/artist/global/208141,0v13/fit/300x300.jpg"
+    },
+    {
+        "albumname": "EYE OF STORM",
+        "image": "../img/eyeofstorm.jpg",
+        "url": "https://i.kfs.io/album/global/47688056,0v2/fit/500x500.jpg"
+    },
+    {
+        "albumname": "人生x樸",
+        "image": "../img/jinsenoboku.png",
+        "url": "https://truth.bahamut.com.tw/s01/201303/cf8f0d21b49a01e779818ae6b6ba12f3.JPG"
+    },
+    {
+        "albumname": "Ambitions",
+        "image": "../img/ambitions.jpg",
+        "url": "https://img.discogs.com/ZgYe9G66CuJHVbawfXn1k4W3sxo=/fit-in/300x300/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-9649301-1484595855-2682.jpeg.jpg"
+    },
+    {
+        "albumname": "35xxxv",
+        "image": "../img/35xxxv.jpg",
+        "url": "https://st.cdjapan.co.jp/pictures/l/04/21/AZCS-1041.jpg"
+    },
+    {
+        "albumname": "殘響Reference",
+        "image": "../img/reference.png",
+        "url": "https://3.bp.blogspot.com/-_a0D6SjErnU/V2cV9HsqERI/AAAAAAAAAGI/9M8HpIaXzpcYqnpop8xC4JRzRh55E2WawCLcB/s1600/cover.jpg"
+    },
+    {
+        "albumname": "Niche Syndrome",
+        "image": "../img/nichesydrome.jpg",
+        "url": "https://www.asmart.jp/Contents/ProductImages/0/100/112/10001900_LL.jpg"
+    }
+]
