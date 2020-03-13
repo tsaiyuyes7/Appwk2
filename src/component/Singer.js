@@ -21,6 +21,7 @@ import { StyleSheet, Text, View ,Image,ScrollView} from 'react-native';
                   source={require("../img/eyeofstorm.jpg")} />
           <Text style={styles.eyeofstormtitle}>EYE OF STORM</Text>
         </View>
+        <View>
           <Text  style={styles.newalbumtitle}>Trending this week</Text>
           <View style={styles.trendsection}>
               <View style={styles.trend1}>
@@ -45,7 +46,26 @@ import { StyleSheet, Text, View ,Image,ScrollView} from 'react-native';
                 <Text style={styles.trendalbumname}>35xxxv</Text>
               </View>
           </View>
-          
+          </View>
+          <View >
+            <Text style={styles.allalbumtitle}>All album</Text>
+            <View style={styles.allalbumsection}>
+              <View style={styles.all1}>
+                <Image 
+                  style={styles.allalbumImg}
+                  source={require("../img/reference.png")} 
+                />
+                <Text style={styles.trendalbumname}>殘響Reference</Text>
+              </View>
+              <View style={styles.all2}>
+                <Image 
+                  style={styles.allalbumImg}
+                  source={require("../img/nichesydrome.jpg")} 
+                />
+                <Text style={styles.trendalbumname}>Niche Syndrome</Text>
+              </View>
+            </View>
+          </View>
       </ScrollView>
     );
   }
@@ -114,15 +134,13 @@ import { StyleSheet, Text, View ,Image,ScrollView} from 'react-native';
     trendsection: {
       flexDirection: "row",
      justifyContent: "flex-start",
-     height:250
+     height:170
     },
     trend1:{
       paddingLeft: 24,
-      height:200
     },
     trend:{
       paddingLeft: 18,
-      height:200
     },
     trendImage: {
       borderRadius: 10,
@@ -134,8 +152,28 @@ import { StyleSheet, Text, View ,Image,ScrollView} from 'react-native';
       letterSpacing:1,
       fontSize:12,
       paddingTop:8
-
-
+    },
+    allalbumtitle:{
+      marginLeft:24,
+      marginBottom:24,
+      fontSize: 20,
+      color: '#736357',
+      letterSpacing: 2,
+    },
+    allalbumsection: {
+     flexDirection: "row",
+     justifyContent: "flex-start",
+     height: 300,
+    },
+    allalbumImg: {
+      width:155,
+      height: 155
+    },
+    all1: {
+      paddingLeft: 24
+    },
+    all2: {
+      paddingLeft: 10
     }
   });
   
