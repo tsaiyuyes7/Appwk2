@@ -24,7 +24,8 @@ const Header = () => {
     },
     headertext: {
       fontSize: 20,
-      color: '#736357'
+      color: '#736357',
+      letterSpacing:2
       
     }
   
